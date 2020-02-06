@@ -11,7 +11,7 @@
 
 #include <string>
 
-#include "RelocationInfo.h"
+#include "visa/RelocationInfo.h"
 
 TEST(LinkerInputTests, givenGlobalsSymbolTableThenProperlyDecodesGlobalVariablesAndGlobalConstants) {
     NEO::LinkerInput linkerInput;
